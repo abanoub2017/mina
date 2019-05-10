@@ -1,0 +1,40 @@
+.modal{
+border: none;
+    .modal-header{
+        background: #383842;
+        color: #fff;
+        .close{
+            padding: 1rem;
+            margin: -1rem  -1rem -1rem !important;
+            color: #fff
+        } 
+        .modal-title{
+
+        }
+    }
+    .modal-body{
+        .nav{
+            justify-content: center;
+            text-align: center;
+            padding: 0;
+            li{
+                width: 50%;
+                a{
+                    display: block !important;
+                }
+            }
+        }
+    }
+    .modal-footer{
+        justify-content: center;
+        border: none
+    }
+    .btn-primary{
+        background-color: #1d7874;
+        border:none;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: #1d7874;
+    }
+}

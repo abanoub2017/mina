@@ -1,0 +1,87 @@
+// Cards Articles Style
+.card-news.articles{
+    margin: 10px;
+    
+        h3{
+            padding-top: 20px;
+            padding-bottom: 12px;
+            position: relative;
+            margin-bottom: 12px;
+            &::before{
+                content: "";
+                position: absolute;
+                right: 4px;
+                text-align: center;
+                bottom: 0;
+                height: 2px;
+                width: 100px;
+                background-color: #1d7874;
+            }
+        }
+        .card{
+            border-radius: 0 0 0 ;
+            border-bottom-right-radius: calc(7px - 1px);
+            border-bottom-left-radius: calc(7px - 1px);
+            margin-bottom: 10px;
+
+            .card-body{
+                border-radius: 0 0 0 ;
+                border-bottom-right-radius: calc(7px - 1px);
+                border-bottom-left-radius: calc(7px - 1px);
+            }
+        }
+   
+}
+
+
+// .card-news.articles{
+//     margin: 10px;
+    
+//     h3{
+//         padding-top: 20px;
+//         padding-bottom: 12px;
+//         position: relative;
+//         margin-bottom: 12px;
+//         &::before{
+//             content: "";
+//             position: absolute;
+//             right: 4px;
+//             bottom: 0;
+//             height: 2px;
+//             width: 100px;
+//             background-color: #1d7874;
+//         }
+//     }
+//     .card {
+//         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) ;
+//         border-radius: 25px;
+//         margin-bottom: 15px;
+//             &:hover{
+//                 box-shadow: 0 0 0 0 ;
+//             };
+//         .card-body{
+//             text-align: center;
+//             background-color: #1d7874;
+//             border-radius: 25px;
+//             color: #fff;
+//             transition: all .3s ease-in-out;
+//             &:hover {
+//                 background-color: #383842; 
+               
+//             };
+//              &:hover a{
+//                 background-color:#383842;
+//             };
+//         h5{
+//             text-align: center;
+//             font-size: 27px;
+//             color: #fff;
+//         }
+//         a{
+//             color: #fff;
+//             background-color: #383842;
+//             border-color: #383842;
+//         }
+//     }
+// }
+// }

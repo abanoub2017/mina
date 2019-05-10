@@ -1,0 +1,101 @@
+
+.menu{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    width: 0;
+    height: 100%;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+   
+    
+  }
+  .sidemenu{
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      transition: all .3s ease-in-out;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+    width: 250px;
+    height: 100%;
+   
+  }
+  .bg{
+      background-color: rgb(146, 146, 146);
+      transition: all .3s ease-in-out;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+  }
+  .menu-icon{
+      position: relative;
+  }
+  .menu-icon .click {
+      position: absolute;
+      right: -39px;
+      top: 0;
+      background-color: transparent;
+      border: none;
+      font-size: 31px;
+      z-index: 99;
+  }
+  .menu-icon .click:focus {
+      outline: none;
+      z-index: 99;
+  }
+  .contet-menu{
+      padding: 15px;
+      font-size: 20px;
+      text-transform: capitalize;
+      text-align: center;
+      opacity: 0;
+      transition: all .3s ease-in-out;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+  }
+  .contet-menu  p{
+      margin: 50px 0;
+  }
+  .contet-menu  p a {
+      margin: 50px 0;
+  }
+  
+  
+  .show{
+      display: inline !important;
+      opacity: 1;
+      transition: all .3s ease-in-out;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+  }
+  .hide{
+      display: none;
+  }
+  .y{
+      display: none;
+      z-index: 99;
+  }
+  
+  .opacity{
+      opacity: 1 !important;
+  }
+  .margin-left-menu{
+      margin-left: 250px;
+  }
